@@ -1,0 +1,97 @@
+.eplan-heading {
+    font-size: 33px;
+    font-weight: 700;
+    color: #181863;
+}
+
+.currentDate {
+    font-size: 22px;
+    font-weight: 600;
+    color: #ff0062
+}
+
+.side-heading {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contents {
+    font-size: 16px;
+    color: rgb(112, 112, 112);
+    line-height: 25px;
+}
+
+.heading-cont {
+    background-color: blue;
+    text-align: center;
+
+    width: 100%;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #181863;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.highlight-pink {
+    font-size: 18px;
+    /* font-weight: 600; */
+    color: rgb(219, 0, 73);
+}
+
+.basic-info-table td {
+    padding: 5px;
+    /* font-size: 16px; */
+    /* font-weight: 600; */
+    border: 1px solid black !important;
+}
+
+.basic-info-table td {
+    padding: 5px;
+    /* font-size: 16px; */
+    /* font-weight: 600; */
+}
+
+.downloadpdf table td {
+    padding: 7px;
+    border: 1px solid black !important;
+    font-size: 14px;
+}
+
+
+
+.highlight-blue-bg {
+    background-color: blue;
+    color: white;
+}
+
+.downloadpdf ol li {
+    line-height: 25px;
+
+    color: rgb(112, 112, 112);
+    margin-bottom: 10px;
+}
+
+@media print {
+    body * {
+        visibility: hidden;
+        /* Hide everything initially */
+    }
+
+    #demo,
+    #demo * {
+        visibility: visible;
+        /* Show only the document */
+    }
+
+    #demo {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+}

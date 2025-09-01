@@ -1,0 +1,239 @@
+:root {
+    --heading-clr: #151529;
+}
+
+.logo-text {
+    color: white !important;
+    margin: 15px 20px;
+}
+
+.user-img img {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.user-name {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.user-img {
+    margin: 10px 0px 0px 20px;
+}
+
+.backbtn {
+    font-size: 20px;
+}
+
+.heading-style {
+    color: var(--heading-clr);
+}
+
+table th {
+    background-color: #f3f6f9 !important;
+}
+
+td,
+tr th {
+    border: .5px solid #e3e3e3 !important;
+}
+
+
+/* Modal overlay remains unchanged */
+.modal-overlay-editview {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal Content */
+.modal-overlay-editview .modal-content {
+    background: white;
+    padding: 0;
+    /* Remove padding to prevent extra spacing */
+    border-radius: 8px;
+    width: 400px;
+    height: 500px;
+    /* Fixed height */
+
+    overflow: hidden;
+    /* Prevent content overflow */
+}
+
+
+.modal-overlay-editview .modal-body {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    /* Enable scrolling */
+}
+
+/* Custom scrollbar styling */
+.modal-overlay-editview .modal-body::-webkit-scrollbar {
+    width: 3px;
+    height: 100px !important;
+}
+
+.modal-overlay-editview .modal-body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.modal-overlay-editview .modal-body::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.modal-overlay-editview .modal-body::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.modal-overlay-editview .modal-footer {
+    padding-top: 25px !important;
+}
+
+
+.modal-overlay-editview .modal-dialog {
+    /* max-width: var(--vz-modal-width); */
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+
+.modal-overlay-editview .modal-dialog-centered {
+    display: flex !important;
+    align-items: center !important;
+
+}
+
+
+
+.was-validated .form-select:invalid:focus,
+.form-select.is-invalid:focus {
+    border-color: var(--vz-form-invalid-border-color);
+    box-shadow: none !important;
+}
+
+.form-control.is-invalid:focus {
+    border-color: var(--vz-form-invalid-border-color);
+    box-shadow: none !important;
+}
+
+.form-select:focus {
+    border-color: #5000a8 !important;
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #5000a8 !important;
+    outline: 0;
+    box-shadow: none;
+}
+
+
+
+
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    /* background: #f2f0f9; */
+    padding: 10px 0;
+}
+
+.marquee-text {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    /* color: #b33838; */
+    color: #4b38b3 !important; 
+    /* color: #000; */
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}
+
+
+.slogan-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+ 
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  marquee {
+    width: 100%;
+  }
+  
+  .slogan-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4b38b3;;
+  }
+  
+
+
+  .navbar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-header .d-flex.align-items-center {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-header .d-flex.align-items-center > *:not(:first-child) {
+    margin-left: 10px; /* Adjust spacing for other items */
+}
+
+.slogan-container {
+    flex-grow: 1;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+.auth-pass-inputgroup .password-addon {
+    position: absolute;
+    right: 20px !important;
+    box-shadow: none !important;
+}
+
+.badge { 
+font-size: 13px;
+}
+
+
+.Toastify__toast {
+    pointer-events: auto !important;
+}

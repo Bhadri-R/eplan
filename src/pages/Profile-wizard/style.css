@@ -1,0 +1,70 @@
+g[fill="#ffffff"][opacity="0"]>rect {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+title#id-156-title {
+    display: none !important;
+}
+
+g[stroke="#3cabff"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+
+g[stroke="#3cabff"] {
+    pointer-events: none !important;
+    opacity: 0 !important;
+}
+
+g[stroke="#3cabff"],
+g[stroke="#3cabff"] path {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+
+g[stroke="url(#gradient-id-159)"],
+g[stroke="url(#gradient-id-159)"] path {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+
+g[stroke*="gradient-id-159"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+
+
+
+
+
+/* Dashboard RULE 100 Bottom */
+.rule100CardOuter {
+    background-color: blue;
+    border-radius: 10px;
+    height: 200px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.th-success {
+    background-color: rgb(56, 118, 29) !important;
+    color: white !important;
+}
+
+.th-danger {
+    background-color: rgb(255, 0, 0) !important;
+    color: white !important;
+}
+
+.th-warning {
+    background-color: rgb(255, 255, 0) !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+/* Dashboard RULE 100 Bottom */
